@@ -1,0 +1,29 @@
+nav{
+    justify-content: space-between;
+    display: flex;
+}
+
+nav ul{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 2rem 2rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover{
+    color: red;
+}

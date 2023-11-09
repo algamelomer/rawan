@@ -1,0 +1,16 @@
+.info{
+    margin-top: 15%;
+    margin-left: 8%;
+}
+
+.info p{
+    color: #a1a1a1;
+}
+.info h1{
+    font-weight: 70px;
+    color: white;
+}
+
+.info h1 span{
+    color: red;
+}

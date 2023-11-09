@@ -1,0 +1,29 @@
+.images{
+    height: 80%;
+    width: 45%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: all 1s;
+}
+.images .rawan{
+    z-index: -9;
+}
+.images .pattern{
+    z-index: -10;
+}
+.images:hover .pattern {
+    bottom: 40px;
+}
+
+.images:hover .rawan {
+    left: 54%;
+}

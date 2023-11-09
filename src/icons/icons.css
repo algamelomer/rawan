@@ -1,0 +1,18 @@
+.icons{
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-top: 400px;
+}
+
+.icons .insta,.whatsapp,.linkedin,.twitter{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 20px;
+    color: #f2f2f2;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.icons .insta:hover,.whatsapp:hover,.linkedin:hover,.twitter :hover{
+color: red;
+}
